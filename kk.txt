@@ -1,3 +1,15 @@
 jhjhm
 
 knsuadhsuchsjcnj
+llllll
+
+Para cuando mi colega hace cambios y los quiero bajar
+git status, git log: esto es para revisar el estado
+git fetch: es para ver los cambios que haya hecho un colaborador
+git pull: para bajar el cambio. SI hay conflicto me sale merge  (aceptar los cambios del otr) or stash (guarda mis cambios en otro sitio)
+
+Para cuando yo hago cambios. Ya estan hechos en el archivo y quiero compartirlos
+git status: para ver que diferencias hay en el archivo
+git add: para agregar los archivos que tienen cambio (git add nombrearchivo.extension)
+git commit: esto es para anunciarlo (git commit --m "mensaje para mostrar")
+git push: esto sube los cambios definitivamente
