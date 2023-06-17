@@ -1,6 +1,7 @@
 jhjhm
 
 knsuadhsuchsjcnj
+
 llllll
 
 Para cuando mi colega hace cambios y los quiero bajar
@@ -13,3 +14,5 @@ git status: para ver que diferencias hay en el archivo
 git add: para agregar los archivos que tienen cambio (git add nombrearchivo.extension)
 git commit: esto es para anunciarlo (git commit --m "mensaje para mostrar")
 git push: esto sube los cambios definitivamente
+
+mjj
