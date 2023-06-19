@@ -28,11 +28,11 @@ def player_move (board: str) -> str:
         position=input("Which position do you want to play?")
         try:
             position=int(position)
-            board=move(board, "x", position)
-            invalid=False
+            
         except:
             print("Please enter a number")
         if ((type(position) is int) and (position > 0) and (position < 20)):
+            board=move(board, "x", position)
             invalid=False
    
     return board
@@ -59,5 +59,12 @@ def D_tictactoe ():
         board=pc_move(board)
         print(board)
         r=evaluate(board)
+    if r=="x":
+        print("Player wins")
+    elif r=="o":
+        print("PC wins")
+    elif r=="!":
+        print("It is a draw")
+     
     return board
 
