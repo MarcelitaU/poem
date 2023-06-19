@@ -53,7 +53,6 @@ def pc_move (board: str) -> str:
         position=random.randint(0, 19)
         print(position,len(board))
         if board[position] == "-":
-            print(37878)
-            move(board, "o", position)
+            board=move(board, "o", position)
             empty=True
     return board
